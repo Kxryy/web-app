@@ -1,0 +1,23 @@
+{
+  "name": "item-management",
+  "version": "1.0.0",
+  "description": "A simple item management app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "echo 'No build step for this app'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "author": "Alfiler, Kirby",
+  "license": "MIT"
+}
